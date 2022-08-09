@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'yanga';
+    src: url(assets/fonts/c18165c8ec2eab82.ttf);
+}
+
+.fill {
+    background: #FFF032;
+    transition: all 0.2s ease;
+    animation: scale 4s linear infinite;
+}
+
+.text {
+    color: #B90078;
+}
+
+header {
+    display: flex;
+    width: 90%;
+    height: 140px;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    height: 100px;
+    width: 140px;
+    align-items: center;
+    z-index: 1;
+}
+
+.logo {
+    width: 10em;
+}
+
+li {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 0.5em;
+    list-style: none;
+}
+
+.webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    z-index: -1;
+}
+
+section.main {
+    width: 20%;
+    height: 80vh;
+    margin-left: 15%;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+h1 {
+    font-family: 'yanga', serif;
+    color: white;
+    font-size: 10em;
+    line-height: 1em;
+}
+
+h2 {
+    font-family: 'yanga', serif;
+    color: white;
+    font-size: 2em;
+    line-height: 1em;
+}
+
+h3 {
+    font-family: 'yanga', serif;
+    color: white;
+    font-size: 2em;
+    line-height: 1em;
+}
+
+
+/*# sourceMappingURL=main.css.map*/
